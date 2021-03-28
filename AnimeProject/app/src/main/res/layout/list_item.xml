@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height">
+
+    <ImageView
+        android:id="@+id/cover_image"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        tools:src="@mipmap/ic_launcher"
+        android:background="@color/tan_background"/>
+
+    <LinearLayout
+        android:id="@+id/text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/cover_image"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="68dp"
+        tools:background="@color/Romance">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Title"
+            android:maxLines="1"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"></TextView>
+
+        <TextView
+            android:id="@+id/episodes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="episodes"
+            android:textSize="12sp"
+            android:layout_gravity="end"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"></TextView>
+
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground" />
+
+</RelativeLayout>

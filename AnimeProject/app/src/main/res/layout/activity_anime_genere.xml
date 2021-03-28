@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context=".AnimeGenere"
+    >
+
+    <!-- Adventure category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Adventure"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/adventure"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/Adventure"
+            android:textSize="32sp"
+            android:gravity="center"/>
+    </FrameLayout>
+
+    <!-- Family category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Horror"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/horror"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/Horror"
+            android:textSize="32sp"
+            android:gravity="center"
+            />
+    </FrameLayout>
+
+    <!-- Colors category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Romance"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/romance"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/Romance"
+            android:textSize="32sp"
+            android:gravity="center"/>
+    </FrameLayout>
+
+    <!-- Phrases category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Game"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/game"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/Game"
+            android:textSize="32sp"
+            android:gravity="center"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AnimeProject</string>
+    <string name="Adventure">Adventure</string>
+    <string name="Romance">Romance</string>
+    <string name="Horror">Horror</string>
+    <string name="Game">Game</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+</resources>
